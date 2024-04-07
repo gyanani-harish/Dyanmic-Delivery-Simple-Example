@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DynamicDeliverySimpleExample</string>
+    <string name="module_face_detector">Face Detector</string>
+    <string name="title_dynamicfeature2">DynamicModule2</string>
+    <string name="title_dynamicfeatureml">Base ML Dependencies</string>
+</resources>
