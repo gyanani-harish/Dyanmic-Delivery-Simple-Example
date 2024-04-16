@@ -19,6 +19,13 @@
             tools:node="remove"
             />
 
+
+        <meta-data
+            android:value="android:value"
+            android:exported="false"
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

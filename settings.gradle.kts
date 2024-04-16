@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+
     }
 }
 dependencyResolutionManagement {
@@ -20,4 +21,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "DynamicDeliverySimpleExample"
-include(":app", ":dynamicfeature2", ":facedetector", ":mymllib")
+include(":app", ":dynamicfeature2", ":facedetector")

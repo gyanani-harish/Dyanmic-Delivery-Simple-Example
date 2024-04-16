@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/dynamicfeature2" />
             <option value="$PROJECT_DIR$/facedetector" />
-            <option value="$PROJECT_DIR$/mymllib" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

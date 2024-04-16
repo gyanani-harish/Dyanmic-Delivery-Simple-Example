@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":mymllib"))
+    //implementation(project(":mymllib"))
     implementation(project(":app"))
     //implementation(project(":app"))
     implementation(libs.androidx.core.ktx)
@@ -31,6 +31,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(libs.androidx.annotation)
-    implementation(libs.play.services.mlkit.barcode.scanning)
+    implementation(libs.play.services.mlkit.barcode.scanning) {
+        exclude(group = "androidx.exifinterface", module = "exifinterface")
+        exclude(group = "com.google.mlkit", module = "vision-common")
+        exclude(group = "com.google.mlkit", module = "vision-interfaces")
+        exclude(group = "com.google.android.odml", module = "image")
+    }
 }
